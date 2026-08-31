@@ -43,8 +43,8 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
           <div className="space-y-6">
             {[
-              { icon: Mail, label: "Email", value: "kalyani@example.com" },
-              { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
+              { icon: Mail, label: "Email", value: "kalyanipatil0902@example.com" },
+              { icon: Phone, label: "Phone", value: "+91 93590 42070" },
               { icon: MapPin, label: "Location", value: "Maharashtra, India" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex items-center gap-4">
