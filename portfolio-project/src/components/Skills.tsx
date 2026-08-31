@@ -4,7 +4,7 @@ const skills = [
   "Java",
   "MS SQL",
   "HTML & CSS",
-  "MERN Stack",
+  
 ];
 
 const Skills = () => (
