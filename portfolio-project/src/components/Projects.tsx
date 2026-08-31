@@ -5,25 +5,25 @@ const projects = [
     icon: Building2,
     title: "Construction ERP System",
     desc: "A comprehensive enterprise resource planning system for the construction industry. Manages projects, resources, budgeting, and workforce allocation with real-time dashboards.",
-    tags: ["Java", "SQL", "ERP"],
+    tags: ["Java", "SQL", "ERP", "Project Management"],
   },
   {
     icon: Landmark,
     title: "Banking Application",
     desc: "Full-featured banking application supporting account management, fund transfers, transaction history, and balance inquiries with secure authentication.",
-    tags: ["Java", "MS SQL", "OOP"],
+    tags: ["Java", "MS SQL", "OOP", "Database Management"],
   },
   {
     icon: UtensilsCrossed,
     title: "Restaurant Website",
     desc: "A responsive restaurant website featuring an interactive menu, online reservation system, and a modern UI designed to attract customers.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
   },
   {
     icon: CreditCard,
     title: "ATM System",
     desc: "Simulated ATM system implementing withdrawal, deposit, balance check, and PIN management with proper validation and error handling.",
-    tags: ["C++", "OOP", "Logic"],
+    tags: ["C++", "OOP", "Logic", "Exception Handling"],
   },
 ];
 
