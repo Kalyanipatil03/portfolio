@@ -38,28 +38,14 @@ const Hero = () => (
           </a>
         </div>
 
-        <div className="flex items-center gap-4 justify-center md:justify-start">
-          {[
-            { icon: Mail, href: "mailto:kalyani@example.com", label: "Email" },
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
-            { icon: Github, href: "#", label: "GitHub" },
-          ].map(({ icon: Icon, href, label }) => (
-            <a
-              key={label}
-              href={href}
-              className="p-2 rounded-full border border-primary-foreground/20 text-primary-foreground/60 hover:text-primary hover:border-primary transition-colors"
-              aria-label={label}
-            >
-              <Icon size={18} />
-            </a>
-          ))}
-        </div>
+       
       </div>
 
       <div className="order-1 md:order-2 flex justify-center">
         <div className="relative">
           <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-primary/30 shadow-elevated">
             <img src={profilePhoto} alt="Kalyani Patil" className="w-full h-full object-cover object-[50%_25%]"/>
+
           </div>
           <div className="absolute -bottom-3 -right-3 gradient-accent text-primary-foreground text-xs font-bold px-4 py-2 rounded-full">
             Open to Work
