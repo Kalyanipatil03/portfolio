@@ -1,5 +1,5 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/Patil Kalyani Nilkanth.jpg";
 
 const Hero = () => (
   <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden">
@@ -59,7 +59,7 @@ const Hero = () => (
       <div className="order-1 md:order-2 flex justify-center">
         <div className="relative">
           <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-primary/30 shadow-elevated">
-            <img src={profilePhoto} alt="Kalyani Patil" className="w-full h-full object-cover" />
+            <img src={profilePhoto} alt="Kalyani Patil" className="w-full h-full object-cover object-[50%_25%]"/>
           </div>
           <div className="absolute -bottom-3 -right-3 gradient-accent text-primary-foreground text-xs font-bold px-4 py-2 rounded-full">
             Open to Work
