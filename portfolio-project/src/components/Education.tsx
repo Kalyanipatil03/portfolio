@@ -1,9 +1,9 @@
 import { GraduationCap } from "lucide-react";
 
 const education = [
-  { level: "Bachelor Of Technology", course: "Computer Engineering", score: "80%", institution: "R. C. Patel Institute of Technology" },
-  { level: "HSC", course: "Science", score: "82.46%", institution: "H. R. Patel Junior College" },
-  { level: "SSC", course: "Secondary School", score: "85.40%", institution: "S. S. R Kanya Vidyalaya" },
+  { level: "Bachelor Of Technology", course: "Computer Engineering", institution: "R. C. Patel Institute of Technology" },
+  { level: "HSC", course: "Science", institution: "H. R. Patel Junior College" },
+  { level: "SSC", course: "Secondary School", institution: "S. S. R Kanya Vidyalaya" },
 ];
 
 const Education = () => (
